@@ -1,0 +1,19 @@
+Paygroup:
+  tableName: py_paygroup
+  columns:
+    company:
+      type: string(30)
+      primary: false
+      autoincrement: false
+    py_paygroup:
+      type: string(15)
+      primary: false
+      autoincrement: false
+    description:
+      type: string(40)
+      primary: false
+      autoincrement: false
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
